@@ -1,0 +1,28 @@
+package="WAVEMIX"
+codepage=437
+filelist="MMIOPROC.LST"           /* File name with parts list         */
+groupcount=2
+munitcount=1                    /* number of disks */
+medianame="WAVE MIX Multimedia I/O Service"
+
+destindir = "\\MMOS2\\DLL\\"          = 1
+destindir = "\\MMOS2\\"               = 2
+destindir = "\\MMOS2\\INSTALL\\"      = 3
+destindir = "\\MMOS2\\HELP\\"         = 7
+ 
+ssgroup=0
+ssname="MMIOPROC"
+sssize=0
+ssversion="1.0.0"
+ssselect="YES"
+sscoreqs=0
+
+ssgroup=20
+ssname="WAVE MIX\nMultimedia I/O Service"
+sssize=78
+ssversion="1.1.0"
+ssselect="YES"
+ssinich="MMIOPROC.SCR"
+sscoreqs=0
+
+

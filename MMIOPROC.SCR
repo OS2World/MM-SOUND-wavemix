@@ -1,0 +1,17 @@
+/* INI Change control file to update the MMPMMMIO.INI file */
+
+mmioInstall =
+   (
+   mmioFourCC        = "WMIX"
+   mmioDllName       = "$(DEST)WAVEMIX.DLL"
+   mmioDllEntryPoint = "MMIOENTRY"
+   mmioFlags         = 0L                    /* Always 0 for now */
+   mmioExtendLen     = 16L                   /* Always 16 for now */
+   mmioMediaType     = 2L                    /* defined in mmio.h */
+   mmioIOProcType    = 2L                    /* 2 = File Format */
+   mmioDefExt        = "WMX"
+   )
+
+/* mmioMediaType Example: IMAGE=1 , AUDIO=2 , MIDI=4 , MOVIE=0x100 , ANIME=0x80 */
+
+
